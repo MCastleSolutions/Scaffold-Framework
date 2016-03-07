@@ -1,0 +1,5 @@
+# Locale-independent index of yml files
+layouts:
+  - main
+colors:
+  - colors

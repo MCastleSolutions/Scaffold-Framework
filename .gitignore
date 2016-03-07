@@ -1,0 +1,12 @@
+# Minimal
+.gradle
+.idea
+/build
+/*/build
+/local.properties
+*.iml
+
+# gradlew
+/gradle
+/gradlew
+/gradlew.bat

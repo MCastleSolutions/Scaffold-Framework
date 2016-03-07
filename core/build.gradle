@@ -1,0 +1,18 @@
+apply plugin: 'kotlin'
+
+sourceCompatibility = 1.6
+targetCompatibility = 1.6
+
+dependencies {
+    compile 'io.reactivex:rxjava:1.1.0'
+    compile 'io.reactivex:rxkotlin:0.30.1'
+    compile 'org.luaj:luaj-jse:3.0.1'
+    compile 'com.google.guava:guava:19.0-rc3'
+
+    // Jackson
+    def jackson = '2.7.0-rc1'
+    compile "com.fasterxml.jackson.core:jackson-core:$jackson"
+    compile "com.fasterxml.jackson.core:jackson-databind:$jackson"
+    compile "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:$jackson"
+    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+}
